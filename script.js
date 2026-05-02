@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 
-  // Optional: change button text
+
   if (document.body.classList.contains("dark-mode")) {
     toggleButton.textContent = "Switch to Light Mode";
   } else {
