@@ -4,11 +4,12 @@ body {
   font-family: 'Brush Script MT';
   font-size: 2rem;
 }
-}
-.night-mode {
+
+body.dark-mode {
   background-color: #0d4a22;
   color: #f0f0f0;
 }
+
 #toggle-mode {
   padding: 10px 20px;
   background-color: #82165e;
